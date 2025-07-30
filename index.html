@@ -2,740 +2,216 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mcmarry College of Advanced Studies</title>
   <style>
     body {
-      margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #ffffff;
-      color: #333;
+      background-color: #f4f8fc;
+      color: #222;
+      margin: 0;
+      padding: 0;
     }
+
     header {
-      background-color: #007bff;
+      background-color: #003366;
       color: white;
       padding: 1rem;
       text-align: center;
     }
+
     nav {
-      background-color: #0056b3;
+      background-color: #00509e;
       text-align: center;
       padding: 0.5rem;
     }
+
     nav a {
       color: white;
-      margin: 0 1rem;
       text-decoration: none;
+      margin: 0 15px;
       font-weight: bold;
     }
+
     section {
       padding: 2rem;
+      max-width: 900px;
+      margin: auto;
     }
-    .program {
-      background-color: #f2f8ff;
-      margin: 1rem 0;
+
+    h1, h2 {
+      color: #003366;
+    }
+
+    .highlight {
+      background-color: #e6f0ff;
       padding: 1rem;
-      border-left: 5px solid #007bff;
+      border-left: 5px solid #00509e;
+      margin-bottom: 2rem;
     }
-    .program img {
-      max-width: 100%;
-      border-radius: 10px;
-      margin-top: 1rem;
+
+    .programs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
     }
+
+    .card {
+      flex: 1 1 300px;
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+
     footer {
-      background-color: #007bff;
+      background-color: #003366;
       color: white;
       text-align: center;
       padding: 1rem;
+    }
+
+    .contact {
+      text-align: center;
       margin-top: 2rem;
     }
-    .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      padding: 10px 15px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+    .faq {
+      margin-top: 2rem;
     }
-    h2 {
-      color: #007bff;
+
+    .faq h3 {
+      color: #00509e;
+    }
+
+    .cta {
+      background-color: #00509e;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.2rem;
+      margin-top: 3rem;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #007bff;
+      padding: 10px 20px;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>Welcome to Mcmarry College of Advanced Studies</h1>
-  <p>Your Trusted Pathway to 200 Level Admission Without JAMB</p>
-</header>
+  <header>
+    <h1>Welcome to Mcmarry College of Advanced Studies</h1>
+    <p>Your Trusted Pathway to 200 Level Admission Without JAMB</p>
+  </header>
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#programs">Programs</a>
-  <a href="#apply">How to Apply</a>
-  <a href="#faq">FAQ</a>
-  <a href="#contact">Contact</a>
-</nav>
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#programs">Our Programs</a>
+    <a href="#apply">How to Apply</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-<section id="about">
-  <h2>📘 About Us</h2>
-  <p>Mcmarry College of Advanced Studies is a certified A’Level training institution dedicated to preparing students for direct university admission through IJMB and JUPEB programs. We offer expert-led tutorials, a structured curriculum, and full support for admission into over 70 universities in Nigeria via Direct Entry (DE).</p>
-</section>
+  <section id="about">
+    <div class="highlight">
+      <p>
+        Mcmarry College of Advanced Studies is a certified A’Level training institution dedicated to preparing students for direct university admission through IJMB and JUPEB programs. Our mission is to make higher education more accessible by eliminating the barriers many students face with JAMB.
+      </p>
+    </div>
+  </section>
 
-<section id="programs">
-  <h2>🎯 Our Programs</h2>
+  <section id="programs">
+    <h2>🎯 Our Programs</h2>
+    <div class="programs">
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200?text=IJMB+Lecture+Class" alt="IJMB Class">
+        <h3>IJMB</h3>
+        <p>Affiliated with Ahmadu Bello University (ABU), Zaria<br>
+        Duration: 9–12 months<br>
+        Recognized by 70+ universities in Nigeria</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200?text=JUPEB+Classroom" alt="JUPEB Class">
+        <h3>JUPEB</h3>
+        <p>Established by University of Lagos (UNILAG)<br>
+        Duration: 9–12 months<br>
+        Recognized by 60+ universities in Nigeria</p>
+      </div>
+    </div>
+  </section>
 
-  <div class="program">
-    <h3>🔹 IJMB (Interim Joint Matriculation Board)</h3>
-    <p>Affiliated with Ahmadu Bello University (ABU), Zaria</p>
+  <section>
+    <h2>✅ Why Study With Us?</h2>
     <ul>
-      <li>Duration: 9–12 months</li>
-      <li>Gain admission into 200 Level without JAMB</li>
-      <li>Recognized by 70+ universities across Nigeria</li>
+      <li>Direct entry into 200 Level</li>
+      <li>Experienced instructors</li>
+      <li>Affordable tuition & flexible payment</li>
+      <li>Admission support & safe study environment</li>
     </ul>
-    <img src="https://cdn.pixabay.com/photo/2016/11/29/05/08/adult-1868750_960_720.jpg" alt="IJMB Classroom" />
+  </section>
+
+  <section id="apply">
+    <h2>📝 How to Apply</h2>
+    <ol>
+      <li>Fill the Online Application Form</li>
+      <li>Choose IJMB or JUPEB</li>
+      <li>Pay your registration fee</li>
+      <li>Start your journey to 200 Level</li>
+    </ol>
+    <p><strong>Note:</strong> You must have WAEC, NECO, or NABTEB (or awaiting result).</p>
+    <a href="https://www.ijmb-reg.com.ng" class="button">Apply Now</a>
+  </section>
+
+  <section class="faq" id="faq">
+    <h2>❓ Frequently Asked Questions (FAQ)</h2>
+    <h3>1. What is IJMB?</h3>
+    <p>An A’Level program by ABU Zaria for 200 Level Direct Entry admission without JAMB.</p>
+
+    <h3>2. What is JUPEB?</h3>
+    <p>Similar to IJMB, established by UNILAG. Also leads to 200 Level admission.</p>
+
+    <h3>3. What’s the duration?</h3>
+    <p>9–12 months for both programs.</p>
+
+    <h3>4. Do I need to write JAMB?</h3>
+    <p>No, but you must obtain a Direct Entry (DE) form from JAMB after completion.</p>
+
+    <h3>5. Can I register with awaiting results?</h3>
+    <p>Yes, awaiting WAEC/NECO/NABTEB results are accepted.</p>
+
+    <h3>6. Will you help with admission?</h3>
+    <p>Yes! We offer full support for DE registration and admission guidance.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>📍 Contact Us</h2>
+    <p>Mcmarry College of Advanced Studies</p>
+    <p>📞 Call/WhatsApp: <strong>08030768304</strong></p>
+    <p>📧 Email: informaustineokoji@gmail.com</p>
+    <p>🌐 Website: <a href="https://www.ijmb-reg.com.ng">www.ijmb-reg.com.ng</a></p>
+  </section>
+
+  <div class="cta">
+    <p>🚀 Don’t let JAMB delay your future. Enroll today and start your journey to 200 Level!</p>
+    <a href="https://wa.me/2348030768304" class="button">Chat on WhatsApp</a>
   </div>
 
-  <div class="program">
-    <h3>🔹 JUPEB (Joint Universities Preliminary Examinations Board)</h3>
-    <p>Established by University of Lagos (UNILAG)</p>
-    <ul>
-      <li>Duration: 9–12 months</li>
-      <li>Gain admission into 200 Level without JAMB</li>
-      <li>Recognized by 60+ universities in Nigeria</li>
-    </ul>
-    <img src="https://cdn.pixabay.com/photo/2016/03/27/07/08/desk-1280538_960_720.jpg" alt="JUPEB Study Area" />
-  </div>
-</section>
-
-<section id="apply">
-  <h2>📝 How to Apply</h2>
-  <ol>
-    <li>Fill the Online Application Form</li>
-    <li>Choose your preferred program (IJMB or JUPEB)</li>
-    <li>Pay your registration fee</li>
-    <li>Begin your journey to 200 Level</li>
-  </ol>
-  <p><strong>Note:</strong> You must have WAEC, NECO, or NABTEB (or be awaiting results) to qualify.</p>
-</section>
-
-<section id="faq">
-  <h2>❓ Frequently Asked Questions (FAQ)</h2>
-  <p><strong>What is IJMB?</strong> A program by ABU Zaria that allows Direct Entry into 200 Level without JAMB.</p>
-  <p><strong>What is JUPEB?</strong> A similar A'Level program by UNILAG, also offering 200 Level admission.</p>
-  <p><strong>Is it accepted?</strong> Yes! 70+ schools accept IJMB and 60+ accept JUPEB.</p>
-  <p><strong>Do I need JAMB?</strong> No, just a Direct Entry form after your program.</p>
-</section>
-
-<section id="contact">
-  <h2>📍 Contact Us</h2>
-  <p><strong>Mcmarry College of Advanced Studies</strong></p>
-  <p>📞 Call/WhatsApp: <a href="tel:08030768304">08030768304</a></p>
-  <p>📧 Email: <a href="mailto:informaustineokoji@gmail.com">informaustineokoji@gmail.com</a></p>
-  <p>🌐 Website: <a href="https://www.ijmb-reg.com.ng" target="_blank">www.ijmb-reg.com.ng</a></p>
-</section>
-
-<footer>
-  <p>🚀 Get Started Today – Enroll at Mcmarry College and gain 200 Level admission without JAMB!</p>
-</footer>
-
-<a class="whatsapp" href="https://wa.me/2348030768304" target="_blank">💬 Chat on WhatsApp</a>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mcmarry College of Advanced Studies</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #ffffff;
-      color: #333;
-    }
-    header {
-      background-color: #007bff;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav {
-      background-color: #0056b3;
-      text-align: center;
-      padding: 0.5rem;
-    }
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 2rem;
-    }
-    .program {
-      background-color: #f2f8ff;
-      margin: 1rem 0;
-      padding: 1rem;
-      border-left: 5px solid #007bff;
-    }
-    .program img {
-      max-width: 100%;
-      border-radius: 10px;
-      margin-top: 1rem;
-    }
-    footer {
-      background-color: #007bff;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-    .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      padding: 10px 15px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    }
-    h2 {
-      color: #007bff;
-    }
-  </style>
-</head>
-<body>
-
-<header>
-  <h1>Welcome to Mcmarry College of Advanced Studies</h1>
-  <p>Your Trusted Pathway to 200 Level Admission Without JAMB</p>
-</header>
-
-<nav>
-  <a href="#about">About</a>
-  <a href="#programs">Programs</a>
-  <a href="#apply">How to Apply</a>
-  <a href="#faq">FAQ</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
-  <h2>📘 About Us</h2>
-  <p>Mcmarry College of Advanced Studies is a certified A’Level training institution dedicated to preparing students for direct university admission through IJMB and JUPEB programs. We offer expert-led tutorials, a structured curriculum, and full support for admission into over 70 universities in Nigeria via Direct Entry (DE).</p>
-</section>
-
-<section id="programs">
-  <h2>🎯 Our Programs</h2>
-
-  <div class="program">
-    <h3>🔹 IJMB (Interim Joint Matriculation Board)</h3>
-    <p>Affiliated with Ahmadu Bello University (ABU), Zaria</p>
-    <ul>
-      <li>Duration: 9–12 months</li>
-      <li>Gain admission into 200 Level without JAMB</li>
-      <li>Recognized by 70+ universities across Nigeria</li>
-    </ul>
-    <img src="https://cdn.pixabay.com/photo/2016/11/29/05/08/adult-1868750_960_720.jpg" alt="IJMB Classroom" />
-  </div>
-
-  <div class="program">
-    <h3>🔹 JUPEB (Joint Universities Preliminary Examinations Board)</h3>
-    <p>Established by University of Lagos (UNILAG)</p>
-    <ul>
-      <li>Duration: 9–12 months</li>
-      <li>Gain admission into 200 Level without JAMB</li>
-      <li>Recognized by 60+ universities in Nigeria</li>
-    </ul>
-    <img src="https://cdn.pixabay.com/photo/2016/03/27/07/08/desk-1280538_960_720.jpg" alt="JUPEB Study Area" />
-  </div>
-</section>
-
-<section id="apply">
-  <h2>📝 How to Apply</h2>
-  <ol>
-    <li>Fill the Online Application Form</li>
-    <li>Choose your preferred program (IJMB or JUPEB)</li>
-    <li>Pay your registration fee</li>
-    <li>Begin your journey to 200 Level</li>
-  </ol>
-  <p><strong>Note:</strong> You must have WAEC, NECO, or NABTEB (or be awaiting results) to qualify.</p>
-</section>
-
-<section id="faq">
-  <h2>❓ Frequently Asked Questions (FAQ)</h2>
-  <p><strong>What is IJMB?</strong> A program by ABU Zaria that allows Direct Entry into 200 Level without JAMB.</p>
-  <p><strong>What is JUPEB?</strong> A similar A'Level program by UNILAG, also offering 200 Level admission.</p>
-  <p><strong>Is it accepted?</strong> Yes! 70+ schools accept IJMB and 60+ accept JUPEB.</p>
-  <p><strong>Do I need JAMB?</strong> No, just a Direct Entry form after your program.</p>
-</section>
-
-<section id="contact">
-  <h2>📍 Contact Us</h2>
-  <p><strong>Mcmarry College of Advanced Studies</strong></p>
-  <p>📞 Call/WhatsApp: <a href="tel:08030768304">08030768304</a></p>
-  <p>📧 Email: <a href="mailto:informaustineokoji@gmail.com">informaustineokoji@gmail.com</a></p>
-  <p>🌐 Website: <a href="https://www.ijmb-reg.com.ng" target="_blank">www.ijmb-reg.com.ng</a></p>
-</section>
-
-<footer>
-  <p>🚀 Get Started Today – Enroll at Mcmarry College and gain 200 Level admission without JAMB!</p>
-</footer>
-
-<a class="whatsapp" href="https://wa.me/2348030768304" target="_blank">💬 Chat on WhatsApp</a>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mcmarry College of Advanced Studies</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #ffffff;
-      color: #333;
-    }
-    header {
-      background-color: #007bff;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav {
-      background-color: #0056b3;
-      text-align: center;
-      padding: 0.5rem;
-    }
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 2rem;
-    }
-    .program {
-      background-color: #f2f8ff;
-      margin: 1rem 0;
-      padding: 1rem;
-      border-left: 5px solid #007bff;
-    }
-    .program img {
-      max-width: 100%;
-      border-radius: 10px;
-      margin-top: 1rem;
-    }
-    footer {
-      background-color: #007bff;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-    .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      padding: 10px 15px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    }
-    h2 {
-      color: #007bff;
-    }
-  </style>
-</head>
-<body>
-
-<header>
-  <h1>Welcome to Mcmarry College of Advanced Studies</h1>
-  <p>Your Trusted Pathway to 200 Level Admission Without JAMB</p>
-</header>
-
-<nav>
-  <a href="#about">About</a>
-  <a href="#programs">Programs</a>
-  <a href="#apply">How to Apply</a>
-  <a href="#faq">FAQ</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
-  <h2>📘 About Us</h2>
-  <p>Mcmarry College of Advanced Studies is a certified A’Level training institution dedicated to preparing students for direct university admission through IJMB and JUPEB programs. We offer expert-led tutorials, a structured curriculum, and full support for admission into over 70 universities in Nigeria via Direct Entry (DE).</p>
-</section>
-
-<section id="programs">
-  <h2>🎯 Our Programs</h2>
-
-  <div class="program">
-    <h3>🔹 IJMB (Interim Joint Matriculation Board)</h3>
-    <p>Affiliated with Ahmadu Bello University (ABU), Zaria</p>
-    <ul>
-      <li>Duration: 9–12 months</li>
-      <li>Gain admission into 200 Level without JAMB</li>
-      <li>Recognized by 70+ universities across Nigeria</li>
-    </ul>
-    <img src="https://cdn.pixabay.com/photo/2016/11/29/05/08/adult-1868750_960_720.jpg" alt="IJMB Classroom" />
-  </div>
-
-  <div class="program">
-    <h3>🔹 JUPEB (Joint Universities Preliminary Examinations Board)</h3>
-    <p>Established by University of Lagos (UNILAG)</p>
-    <ul>
-      <li>Duration: 9–12 months</li>
-      <li>Gain admission into 200 Level without JAMB</li>
-      <li>Recognized by 60+ universities in Nigeria</li>
-    </ul>
-    <img src="https://cdn.pixabay.com/photo/2016/03/27/07/08/desk-1280538_960_720.jpg" alt="JUPEB Study Area" />
-  </div>
-</section>
-
-<section id="apply">
-  <h2>📝 How to Apply</h2>
-  <ol>
-    <li>Fill the Online Application Form</li>
-    <li>Choose your preferred program (IJMB or JUPEB)</li>
-    <li>Pay your registration fee</li>
-    <li>Begin your journey to 200 Level</li>
-  </ol>
-  <p><strong>Note:</strong> You must have WAEC, NECO, or NABTEB (or be awaiting results) to qualify.</p>
-</section>
-
-<section id="faq">
-  <h2>❓ Frequently Asked Questions (FAQ)</h2>
-  <p><strong>What is IJMB?</strong> A program by ABU Zaria that allows Direct Entry into 200 Level without JAMB.</p>
-  <p><strong>What is JUPEB?</strong> A similar A'Level program by UNILAG, also offering 200 Level admission.</p>
-  <p><strong>Is it accepted?</strong> Yes! 70+ schools accept IJMB and 60+ accept JUPEB.</p>
-  <p><strong>Do I need JAMB?</strong> No, just a Direct Entry form after your program.</p>
-</section>
-
-<section id="contact">
-  <h2>📍 Contact Us</h2>
-  <p><strong>Mcmarry College of Advanced Studies</strong></p>
-  <p>📞 Call/WhatsApp: <a href="tel:08030768304">08030768304</a></p>
-  <p>📧 Email: <a href="mailto:informaustineokoji@gmail.com">informaustineokoji@gmail.com</a></p>
-  <p>🌐 Website: <a href="https://www.ijmb-reg.com.ng" target="_blank">www.ijmb-reg.com.ng</a></p>
-</section>
-
-<footer>
-  <p>🚀 Get Started Today – Enroll at Mcmarry College and gain 200 Level admission without JAMB!</p>
-</footer>
-
-<a class="whatsapp" href="https://wa.me/2348030768304" target="_blank">💬 Chat on WhatsApp</a>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mcmarry College of Advanced Studies</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #ffffff;
-      color: #333;
-    }
-    header {
-      background-color: #007bff;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav {
-      background-color: #0056b3;
-      text-align: center;
-      padding: 0.5rem;
-    }
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 2rem;
-    }
-    .program {
-      background-color: #f2f8ff;
-      margin: 1rem 0;
-      padding: 1rem;
-      border-left: 5px solid #007bff;
-    }
-    .program img {
-      max-width: 100%;
-      border-radius: 10px;
-      margin-top: 1rem;
-    }
-    footer {
-      background-color: #007bff;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-    .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      padding: 10px 15px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    }
-    h2 {
-      color: #007bff;
-    }
-  </style>
-</head>
-<body>
-
-<header>
-  <h1>Welcome to Mcmarry College of Advanced Studies</h1>
-  <p>Your Trusted Pathway to 200 Level Admission Without JAMB</p>
-</header>
-
-<nav>
-  <a href="#about">About</a>
-  <a href="#programs">Programs</a>
-  <a href="#apply">How to Apply</a>
-  <a href="#faq">FAQ</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
-  <h2>📘 About Us</h2>
-  <p>Mcmarry College of Advanced Studies is a certified A’Level training institution dedicated to preparing students for direct university admission through IJMB and JUPEB programs. We offer expert-led tutorials, a structured curriculum, and full support for admission into over 70 universities in Nigeria via Direct Entry (DE).</p>
-</section>
-
-<section id="programs">
-  <h2>🎯 Our Programs</h2>
-
-  <div class="program">
-    <h3>🔹 IJMB (Interim Joint Matriculation Board)</h3>
-    <p>Affiliated with Ahmadu Bello University (ABU), Zaria</p>
-    <ul>
-      <li>Duration: 9–12 months</li>
-      <li>Gain admission into 200 Level without JAMB</li>
-      <li>Recognized by 70+ universities across Nigeria</li>
-    </ul>
-    <img src="https://cdn.pixabay.com/photo/2016/11/29/05/08/adult-1868750_960_720.jpg" alt="IJMB Classroom" />
-  </div>
-
-  <div class="program">
-    <h3>🔹 JUPEB (Joint Universities Preliminary Examinations Board)</h3>
-    <p>Established by University of Lagos (UNILAG)</p>
-    <ul>
-      <li>Duration: 9–12 months</li>
-      <li>Gain admission into 200 Level without JAMB</li>
-      <li>Recognized by 60+ universities in Nigeria</li>
-    </ul>
-    <img src="https://cdn.pixabay.com/photo/2016/03/27/07/08/desk-1280538_960_720.jpg" alt="JUPEB Study Area" />
-  </div>
-</section>
-
-<section id="apply">
-  <h2>📝 How to Apply</h2>
-  <ol>
-    <li>Fill the Online Application Form</li>
-    <li>Choose your preferred program (IJMB or JUPEB)</li>
-    <li>Pay your registration fee</li>
-    <li>Begin your journey to 200 Level</li>
-  </ol>
-  <p><strong>Note:</strong> You must have WAEC, NECO, or NABTEB (or be awaiting results) to qualify.</p>
-</section>
-
-<section id="faq">
-  <h2>❓ Frequently Asked Questions (FAQ)</h2>
-  <p><strong>What is IJMB?</strong> A program by ABU Zaria that allows Direct Entry into 200 Level without JAMB.</p>
-  <p><strong>What is JUPEB?</strong> A similar A'Level program by UNILAG, also offering 200 Level admission.</p>
-  <p><strong>Is it accepted?</strong> Yes! 70+ schools accept IJMB and 60+ accept JUPEB.</p>
-  <p><strong>Do I need JAMB?</strong> No, just a Direct Entry form after your program.</p>
-</section>
-
-<section id="contact">
-  <h2>📍 Contact Us</h2>
-  <p><strong>Mcmarry College of Advanced Studies</strong></p>
-  <p>📞 Call/WhatsApp: <a href="tel:08030768304">08030768304</a></p>
-  <p>📧 Email: <a href="mailto:informaustineokoji@gmail.com">informaustineokoji@gmail.com</a></p>
-  <p>🌐 Website: <a href="https://www.ijmb-reg.com.ng" target="_blank">www.ijmb-reg.com.ng</a></p>
-</section>
-
-<footer>
-  <p>🚀 Get Started Today – Enroll at Mcmarry College and gain 200 Level admission without JAMB!</p>
-</footer>
-
-<a class="whatsapp" href="https://wa.me/2348030768304" target="_blank">💬 Chat on WhatsApp</a>
-
-</body>
-                              </html><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mcmarry College of Advanced Studies</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #ffffff;
-      color: #333;
-    }
-    header {
-      background-color: #007bff;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav {
-      background-color: #0056b3;
-      text-align: center;
-      padding: 0.5rem;
-    }
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 2rem;
-    }
-    .program {
-      background-color: #f2f8ff;
-      margin: 1rem 0;
-      padding: 1rem;
-      border-left: 5px solid #007bff;
-    }
-    .program img {
-      max-width: 100%;
-      border-radius: 10px;
-      margin-top: 1rem;
-    }
-    footer {
-      background-color: #007bff;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-    .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      padding: 10px 15px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    }
-    h2 {
-      color: #007bff;
-    }
-  </style>
-</head>
-<body>
-
-<header>
-  <h1>Welcome to Mcmarry College of Advanced Studies</h1>
-  <p>Your Trusted Pathway to 200 Level Admission Without JAMB</p>
-</header>
-
-<nav>
-  <a href="#about">About</a>
-  <a href="#programs">Programs</a>
-  <a href="#apply">How to Apply</a>
-  <a href="#faq">FAQ</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
-  <h2>📘 About Us</h2>
-  <p>Mcmarry College of Advanced Studies is a certified A’Level training institution dedicated to preparing students for direct university admission through IJMB and JUPEB programs. We offer expert-led tutorials, a structured curriculum, and full support for admission into over 70 universities in Nigeria via Direct Entry (DE).</p>
-</section>
-
-<section id="programs">
-  <h2>🎯 Our Programs</h2>
-
-  <div class="program">
-    <h3>🔹 IJMB (Interim Joint Matriculation Board)</h3>
-    <p>Affiliated with Ahmadu Bello University (ABU), Zaria</p>
-    <ul>
-      <li>Duration: 9–12 months</li>
-      <li>Gain admission into 200 Level without JAMB</li>
-      <li>Recognized by 70+ universities across Nigeria</li>
-    </ul>
-    <img src="https://cdn.pixabay.com/photo/2016/11/29/05/08/adult-1868750_960_720.jpg" alt="IJMB Classroom" />
-  </div>
-
-  <div class="program">
-    <h3>🔹 JUPEB (Joint Universities Preliminary Examinations Board)</h3>
-    <p>Established by University of Lagos (UNILAG)</p>
-    <ul>
-      <li>Duration: 9–12 months</li>
-      <li>Gain admission into 200 Level without JAMB</li>
-      <li>Recognized by 60+ universities in Nigeria</li>
-    </ul>
-    <img src="https://cdn.pixabay.com/photo/2016/03/27/07/08/desk-1280538_960_720.jpg" alt="JUPEB Study Area" />
-  </div>
-</section>
-
-<section id="apply">
-  <h2>📝 How to Apply</h2>
-  <ol>
-    <li>Fill the Online Application Form</li>
-    <li>Choose your preferred program (IJMB or JUPEB)</li>
-    <li>Pay your registration fee</li>
-    <li>Begin your journey to 200 Level</li>
-  </ol>
-  <p><strong>Note:</strong> You must have WAEC, NECO, or NABTEB (or be awaiting results) to qualify.</p>
-</section>
-
-<section id="faq">
-  <h2>❓ Frequently Asked Questions (FAQ)</h2>
-  <p><strong>What is IJMB?</strong> A program by ABU Zaria that allows Direct Entry into 200 Level without JAMB.</p>
-  <p><strong>What is JUPEB?</strong> A similar A'Level program by UNILAG, also offering 200 Level admission.</p>
-  <p><strong>Is it accepted?</strong> Yes! 70+ schools accept IJMB and 60+ accept JUPEB.</p>
-  <p><strong>Do I need JAMB?</strong> No, just a Direct Entry form after your program.</p>
-</section>
-
-<section id="contact">
-  <h2>📍 Contact Us</h2>
-  <p><strong>Mcmarry College of Advanced Studies</strong></p>
-  <p>📞 Call/WhatsApp: <a href="tel:08030768304">08030768304</a></p>
-  <p>📧 Email: <a href="mailto:informaustineokoji@gmail.com">informaustineokoji@gmail.com</a></p>
-  <p>🌐 Website: <a href="https://www.ijmb-reg.com.ng" target="_blank">www.ijmb-reg.com.ng</a></p>
-</section>
-
-<footer>
-  <p>🚀 Get Started Today – Enroll at Mcmarry College and gain 200 Level admission without JAMB!</p>
-</footer>
-
-<a class="whatsapp" href="https://wa.me/2348030768304" target="_blank">💬 Chat on WhatsApp</a>
+  <footer>
+    <p>&copy; 2025 Mcmarry College of Advanced Studies</p>
+  </footer>
 
 </body>
 </html>
