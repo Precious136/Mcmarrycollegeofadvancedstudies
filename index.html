@@ -1,111 +1,198 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mcmarry College of Advanced Studies</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #ffffff;
-      color: #333;
-      scroll-behavior: smooth;
+      background-color: #f0f8ff;
+      color: #003366;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    header img {
+      height: 60px;
     }
     nav {
-      background-color: #004080;
-      color: white;
+      background: #0066cc;
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px;
+      justify-content: center;
       flex-wrap: wrap;
     }
-    nav .logo {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    nav .logo img {
-      height: 50px;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 20px;
-    }
-    nav ul li a {
+    nav a {
       color: white;
+      padding: 1em;
       text-decoration: none;
+      font-weight: bold;
     }
-    .section {
-      padding: 40px 20px;
-      max-width: 1000px;
+    nav a:hover {
+      background: #004080;
+    }
+    section {
+      padding: 2em;
+      max-width: 900px;
       margin: auto;
     }
-    .section img {
+    img {
       max-width: 100%;
       height: auto;
-      margin-top: 15px;
+      margin-bottom: 1em;
+    }
+    .slider {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+      padding: 10px 0;
+    }
+    .slider img {
+      flex-shrink: 0;
+      width: 100%;
+      max-width: 300px;
+      border-radius: 8px;
+    }
+    form input, form select, form textarea, form button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .faq-item {
+      margin-bottom: 10px;
+    }
+    .faq-item summary {
+      font-weight: bold;
+      cursor: pointer;
     }
     footer {
-      background-color: #004080;
+      background: #003366;
       color: white;
       text-align: center;
-      padding: 20px;
+      padding: 1em;
     }
-    a {
-      color: #004080;
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      font-size: 24px;
+      text-align: center;
+      line-height: 50px;
+      text-decoration: none;
+      z-index: 1000;
     }
   </style>
 </head>
 <body>
-  <nav>
-    <div class="logo">
-      <img src="IMG-20250609-WA0029.jpg" alt="Mcmarry Logo">
-      <h1>MCMARRY COLLEGE</h1>
-    </div>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#ijmb">IJMB</a></li>
-      <li><a href="#jupeb">JUPEB</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>  <section class="section">
-    <h2>Welcome to Mcmarry College of Advanced Studies</h2>
-    <p>Your Trusted Pathway to 200 Level Admission Without JAMB</p>
-    <p>Welcome to Mcmarry College of Advanced Studies, your reliable partner in achieving university admission through accredited A’Level programs – IJMB and JUPEB. If you’re tired of the delay and stress of JAMB, we offer a smarter, faster route straight into 200 Level.</p>
-    <p>📞 Call or WhatsApp: 08030768304<br>🌐 Website: www.ijmb-reg.com.ng<br>📧 Email: informaustineokoji@gmail.com</p>
-  </section>  <section id="about" class="section">
-    <h2>About Us</h2>
-    <p>Mcmarry College of Advanced Studies is a certified A’Level training institution dedicated to preparing students for direct university admission through IJMB and JUPEB programs. We offer expert-led tutorials, a structured curriculum, and full support for admission into over 70 universities in Nigeria via Direct Entry (DE).</p>
-    <p>Our mission is to make higher education more accessible by eliminating the barriers many students face with JAMB.</p>
-  </section>  <section id="ijmb" class="section">
-    <h2>IJMB Program</h2>
-    <p>🔹 Affiliated with Ahmadu Bello University (ABU), Zaria<br>
-       🔹 Duration: 9–12 months<br>
-       🔹 Gain admission into 200 Level without JAMB<br>
-       🔹 Recognized by 70+ universities across Nigeria</p>
-    <img src="IMG-20250730-WA0012.jpg" alt="IJMB Students">
-  </section>  <section id="jupeb" class="section">
-    <h2>JUPEB Program</h2>
-    <p>🔹 Established by University of Lagos (UNILAG)<br>
-       🔹 Duration: 9–12 months<br>
-       🔹 Gain admission into 200 Level without JAMB<br>
-       🔹 Recognized by 60+ universities across Nigeria</p>
-    <img src="IMG-20250730-WA0011.jpg" alt="JUPEB Students">
-  </section>  <section class="section">
-    <h2>Our Study Environment</h2>
-    <p>Conducive, well-equipped classrooms designed for focused learning and academic excellence.</p>
-    <img src="IMG-20250730-WA0010.jpg" alt="Study Environment">
-  </section>  <section id="contact" class="section">
-    <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:mcmarrycollege@gmail.com">mcmarrycollege@gmail.com</a></p>
-    <p>Phone: <a href="tel:+2348030768304">0803 076 8304</a></p>
-    <p>Website: <a href="https://precious136.github.io/mcmarrycollegeofadvancedstudies" target="_blank">Visit our Website</a></p>
-    <p>Location: [Insert your physical address here]</p>
-  </section>  <footer>
-    <p>&copy; 2025 Mcmarry College of Advanced Studies. All rights reserved.</p>
-  </footer>
+
+<header>
+  <img src="logo.png" alt="Mcmarry College Logo" />
+  <h1>Mcmarry College of Advanced Studies</h1>
+  <p>Your Trusted Pathway to 200 Level Admission Without JAMB</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#ijmb">IJMB</a>
+  <a href="#jupeb">JUPEB</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Mcmarry College of Advanced Studies is a certified A’Level training institution preparing students for 200 Level university admission via IJMB and JUPEB.</p>
+  <img src="students.jpg" alt="Study Environment">
+</section>
+
+<section id="ijmb">
+  <h2>IJMB Program</h2>
+  <p>Affiliated with ABU Zaria. Duration: 9–12 months. Accepted by 70+ universities in Nigeria.</p>
+  <img src="ijmb.jpg" alt="IJMB students">
+</section>
+
+<section id="jupeb">
+  <h2>JUPEB Program</h2>
+  <p>Established by UNILAG. Duration: 9–12 months. Accepted by 60+ universities in Nigeria.</p>
+  <img src="jupeb.jpg" alt="JUPEB students">
+</section>
+
+<section>
+  <h2>Gallery</h2>
+  <div class="slider">
+    <img src="classroom.jpg" alt="Classroom">
+    <img src="students.jpg" alt="Students">
+    <img src="ijmb.jpg" alt="IJMB Students">
+  </div>
+</section>
+
+<section>
+  <h2>Testimonials</h2>
+  <p><em>"I gained 200 Level admission into UNILAG through JUPEB at Mcmarry College. Highly recommended!"</em> – Sandra E.</p>
+  <p><em>"Mcmarry College gave me a second chance. I’m now studying at UNIBEN without ever writing JAMB again."</em> – Ibrahim S.</p>
+</section>
+
+<section>
+  <h2>FAQs</h2>
+  <div class="faq-item">
+    <details>
+      <summary>What is IJMB?</summary>
+      <p>IJMB is an A’Level program by ABU Zaria for direct entry into 200 Level.</p>
+    </details>
+  </div>
+  <div class="faq-item">
+    <details>
+      <summary>Do I need JAMB?</summary>
+      <p>No, but you’ll need to register for Direct Entry after completion.</p>
+    </details>
+  </div>
+  <div class="faq-item">
+    <details>
+      <summary>How long is the program?</summary>
+      <p>9–12 months (1 academic session).</p>
+    </details>
+  </div>
+</section>
+
+<section>
+  <h2>Registration Form</h2>
+  <form action="https://formspree.io/f/mnqeyodl" method="POST">
+    <input type="text" name="name" placeholder="Full Name" required />
+    <input type="tel" name="phone" placeholder="Phone Number" required />
+    <select name="program" required>
+      <option value="">Select Program</option>
+      <option value="IJMB">IJMB</option>
+      <option value="JUPEB">JUPEB</option>
+    </select>
+    <input type="email" name="email" placeholder="Email" />
+    <textarea name="message" placeholder="Message or Question"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Address:</strong> OPP MTN Office, off University of Ilorin Road, Tanke, Ilorin, Kwara State</p>
+  <p><strong>Phone/WhatsApp:</strong> <a href="tel:+2348030768304">08030768304</a></p>
+  <p><strong>Email:</strong> <a href="mailto:informaustineokoji@gmail.com">informaustineokoji@gmail.com</a></p>
+  <p><strong>Website:</strong> <a href="https://www.ijmb-reg.com.ng" target="_blank">www.ijmb-reg.com.ng</a></p>
+</section>
+
+<footer>
+  &copy; 2025 Mcmarry College of Advanced Studies. All Rights Reserved.
+</footer>
+
+<a class="whatsapp-button" href="https://wa.me/2348030768304" target="_blank">💬</a>
+
 </body>
 </html>
