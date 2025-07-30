@@ -1,0 +1,47 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mcmarry College of Advanced Studies</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+  <header class="bg-blue-900 text-white p-6 text-center">
+    <h1 class="text-3xl font-bold">Welcome to Mcmarry College of Advanced Studies</h1>
+    <p class="text-lg mt-2">Your Trusted Pathway to 200 Level Admission Without JAMB</p>
+    <p class="mt-1">Call or WhatsApp: <a href="tel:08030768304" class="underline">08030768304</a> | 
+    Email: <a href="mailto:informaustineokoji@gmail.com" class="underline">informaustineokoji@gmail.com</a></p>
+  </header>
+
+  <section class="p-6">
+    <h2 class="text-2xl font-semibold mb-2">About Us</h2>
+    <p>Mcmarry College of Advanced Studies is a certified A’Level training institution offering IJMB and JUPEB programs for direct admission into 200 Level in Nigerian universities.</p>
+  </section>
+
+  <section class="bg-gray-100 p-6">
+    <h2 class="text-2xl font-semibold mb-4">Our Programs</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="p-4 border rounded">
+        <h3 class="font-bold text-xl">IJMB</h3>
+        <ul class="list-disc list-inside">
+          <li>Affiliated with ABU, Zaria</li>
+          <li>Duration: 9–12 months</li>
+          <li>Admission into 200 Level without JAMB</li>
+          <li>Recognized by 70+ universities</li>
+        </ul>
+      </div>
+      <div class="p-4 border rounded">
+        <h3 class="font-bold text-xl">JUPEB</h3>
+        <ul class="list-disc list-inside">
+          <li>Established by UNILAG</li>
+          <li>Duration: 9–12 months</li>
+          <li>Admission into 200 Level without JAMB</li>
+          <li>Recognized by 60+ universities</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
