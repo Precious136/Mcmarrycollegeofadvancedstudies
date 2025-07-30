@@ -1,112 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mcmarry College of Advanced Studies</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f5f9ff;
-      color: #003366;
+      background-color: #ffffff;
+      color: #333;
+      scroll-behavior: smooth;
     }
-    header {
-      background: #003366;
+    nav {
+      background-color: #004080;
       color: white;
-      padding: 20px;
-      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      flex-wrap: wrap;
     }
-    header img {
-      width: 80px;
-      height: auto;
+    nav .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
-    section {
-      padding: 20px;
-      max-width: 900px;
+    nav .logo img {
+      height: 50px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
       margin: auto;
     }
-    h2 {
-      color: #004080;
-      border-bottom: 2px solid #007BFF;
-      padding-bottom: 5px;
-    }
-    .program-image {
-      width: 100%;
-      max-width: 500px;
+    .section img {
+      max-width: 100%;
       height: auto;
-      margin: 10px 0;
-    }
-    .highlight {
-      background: #e0efff;
-      padding: 10px;
-      border-radius: 5px;
+      margin-top: 15px;
     }
     footer {
-      background: #003366;
+      background-color: #004080;
       color: white;
       text-align: center;
       padding: 20px;
-      margin-top: 40px;
+    }
+    a {
+      color: #004080;
     }
   </style>
 </head>
 <body>
-
-<header>
-  <img src="IMG-20250609-WA0029.jpg" alt="School Logo" />
-  <h1>Welcome to Mcmarry College of Advanced Studies</h1>
-  <p>Your Trusted Pathway to 200 Level Admission Without JAMB</p>
-</header>
-
-<section>
-  <h2>About Us</h2>
-  <p>Mcmarry College of Advanced Studies is a certified A’Level training institution dedicated to preparing students for direct university admission through IJMB and JUPEB programs. Our mission is to make higher education more accessible by eliminating JAMB barriers.</p>
-</section>
-
-<section>
-  <h2>Our Programs</h2>
-
-  <div class="highlight">
-    <h3>IJMB (Interim Joint Matriculation Board)</h3>
-    <img src="ijmblogotrans.png" alt="IJMB Program" class="program-image"/>
+  <nav>
+    <div class="logo">
+      <img src="IMG-20250609-WA0029.jpg" alt="Mcmarry Logo">
+      <h1>MCMARRY COLLEGE</h1>
+    </div>
     <ul>
-      <li>Affiliated with ABU, Zaria</li>
-      <li>Duration: 9–12 months</li>
-      <li>Accepted by 70+ Nigerian universities</li>
-      <li>Gain direct admission to 200 Level</li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#ijmb">IJMB</a></li>
+      <li><a href="#jupeb">JUPEB</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-  </div>
-
-  <div class="highlight">
-    <h3>JUPEB (Joint Universities Preliminary Examinations Board)</h3>
-    <img src="images (1).png" alt="JUPEB Program" class="program-image"/>
-    <ul>
-      <li>Established by UNILAG</li>
-      <li>Duration: 9–12 months</li>
-      <li>Accepted by 60+ Nigerian universities</li>
-      <li>Gain direct admission to 200 Level</li>
-    </ul>
-  </div>
-</section>
-
-<section>
-  <h2>Study Environment</h2>
-  <img src="images.jpeg" alt="Study Environment" class="program-image"/>
-  <p>We provide a safe, clean, and student-friendly learning environment with qualified instructors and full admission support services.</p>
-</section>
-
-<section>
-  <h2>Contact Us</h2>
-  <p>📞 Call/WhatsApp: 08030768304<br/>
-     🌐 Website: www.ijmb-reg.com.ng<br/>
-     📧 Email: informaustineokoji@gmail.com</p>
-</section>
-
-<footer>
-  <p>&copy; 2025 Mcmarry College of Advanced Studies. All rights reserved.</p>
-</footer>
-
+  </nav>  <section class="section">
+    <h2>Welcome to Mcmarry College of Advanced Studies</h2>
+    <p>Your Trusted Pathway to 200 Level Admission Without JAMB</p>
+    <p>Welcome to Mcmarry College of Advanced Studies, your reliable partner in achieving university admission through accredited A’Level programs – IJMB and JUPEB. If you’re tired of the delay and stress of JAMB, we offer a smarter, faster route straight into 200 Level.</p>
+    <p>📞 Call or WhatsApp: 08030768304<br>🌐 Website: www.ijmb-reg.com.ng<br>📧 Email: informaustineokoji@gmail.com</p>
+  </section>  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Mcmarry College of Advanced Studies is a certified A’Level training institution dedicated to preparing students for direct university admission through IJMB and JUPEB programs. We offer expert-led tutorials, a structured curriculum, and full support for admission into over 70 universities in Nigeria via Direct Entry (DE).</p>
+    <p>Our mission is to make higher education more accessible by eliminating the barriers many students face with JAMB.</p>
+  </section>  <section id="ijmb" class="section">
+    <h2>IJMB Program</h2>
+    <p>🔹 Affiliated with Ahmadu Bello University (ABU), Zaria<br>
+       🔹 Duration: 9–12 months<br>
+       🔹 Gain admission into 200 Level without JAMB<br>
+       🔹 Recognized by 70+ universities across Nigeria</p>
+    <img src="IMG-20250730-WA0012.jpg" alt="IJMB Students">
+  </section>  <section id="jupeb" class="section">
+    <h2>JUPEB Program</h2>
+    <p>🔹 Established by University of Lagos (UNILAG)<br>
+       🔹 Duration: 9–12 months<br>
+       🔹 Gain admission into 200 Level without JAMB<br>
+       🔹 Recognized by 60+ universities across Nigeria</p>
+    <img src="IMG-20250730-WA0011.jpg" alt="JUPEB Students">
+  </section>  <section class="section">
+    <h2>Our Study Environment</h2>
+    <p>Conducive, well-equipped classrooms designed for focused learning and academic excellence.</p>
+    <img src="IMG-20250730-WA0010.jpg" alt="Study Environment">
+  </section>  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:mcmarrycollege@gmail.com">mcmarrycollege@gmail.com</a></p>
+    <p>Phone: <a href="tel:+2348030768304">0803 076 8304</a></p>
+    <p>Website: <a href="https://precious136.github.io/mcmarrycollegeofadvancedstudies" target="_blank">Visit our Website</a></p>
+    <p>Location: [Insert your physical address here]</p>
+  </section>  <footer>
+    <p>&copy; 2025 Mcmarry College of Advanced Studies. All rights reserved.</p>
+  </footer>
 </body>
 </html>
